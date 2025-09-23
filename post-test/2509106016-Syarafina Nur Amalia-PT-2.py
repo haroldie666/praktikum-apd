@@ -16,7 +16,7 @@ isKelebihan = beratBadan > beratIdeal
 statusTubuh = ['Berat badan ideal', 'Kelebihan berat badan, perbanyak olahraga']
 status = statusTubuh[int(isKelebihan)]
 
-print(Fore.CYAN + '\n\n','='*15,'Status Kesehatan Anda','='*15)
+print(Fore.CYAN + '\n\n','='*8,'Status Kesehatan Anda','='*8)
 t.add_row(['Nama', Fore.BLUE + nama])
 t.add_row(['Tinggi Badan (cm)', tinggiBadan])
 t.add_row(['Berat Badan (kg)', beratBadan])
