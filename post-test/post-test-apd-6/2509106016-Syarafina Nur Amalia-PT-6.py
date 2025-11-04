@@ -50,7 +50,7 @@ while program_berjalan:
                 nama_pengguna_baru = input("Nama pengguna baru: ").strip()
                 nama_sudah_ada = False
                 for pengguna in users:
-                    if pengguna[0] == nama_pengguna_baru:
+                    if pengguna == nama_pengguna_baru:
                         nama_sudah_ada = True
                         break
                 
